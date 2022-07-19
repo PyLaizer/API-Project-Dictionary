@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(65,9,121,0.7)50%, rgba(0,212,255,0.7)100%);
+}
+
+.head{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    font-weight: 800;
+}
+
+.container{
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 60px 50px;
+}
+
+.search_box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.search_box input{
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgba(65,9,121,0.7);
+}
+
+.search_box button{
+    width: 25%;
+    background:linear-gradient(90deg, rgba(65,9,121,0.7)50%, rgba(0,212,255,0.7)100%) ;
+    color: whitesmoke;
+    padding: 15px 0;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+}
+
+.search_box button:hover{
+    background: linear-gradient(90deg, rgba(65,9,121,1)50%, rgba(0,212,255,1)100% );
+}
+
+.result{
+    position: relative;
+}
+
+.result h3{
+    font-size: 50px;
+    color: rgba(65,9,121,0.7);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.result .details{
+    display: flex;
+    gap: 10px;
+    color: rgba(0,212,255,1);
+    margin: 5px 0 20px 0;
+    font-size: 20px;
+    font-family:'Poppins', sans-serif ;
+    font-weight: 300;
+}
+
+.word_meaning{
+    color: rgba(65,9,121,0.7);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.example{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: rgba(0,212,255,0.7);
+    margin-bottom:0;
+}
+
+.word_example{
+    color: rgba(65,9,121,1);
+    font-style: italic;
+    border-left: 5px solid rgba(0,212,255,1);
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 23px;
+    padding-left: 20px;
+}
+
+.error{
+    text-align: center;
+    margin-top: 80px;
+    border: 2px solid red;
+}
